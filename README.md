@@ -8,7 +8,7 @@
 
 ```cd scripts && wget https://raw.githubusercontent.com/heng06/Hexrypt/main/hexrypt.js```
 
-#使用
+# 使用
 你需要为每一篇文章指定单独的密码。只需要在.md文件头部添加`password: YOURPASSWORD`即可。
 ```
 ---
