@@ -1,6 +1,10 @@
 这是一个用于给Hexo博文"上锁"的插件。你可以为每一篇文章设定密码，读者在打开时必须输入正确的密码才能查看文章内容。
 # 安装
-首先，你需要在你的Hexo工作目录下新建"scripts"目录。
+首先(也是最重要的)，你需要在NodeJS中安装CryptoJS。
+
+```npm install crypto-js```
+
+其次，你需要在你的Hexo工作目录下新建"scripts"目录。
 
 ```cd YOURWORKSPACE && mkdir scripts```
 
